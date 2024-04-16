@@ -12,8 +12,6 @@ jobs:
           token: ${{ secrets.VERCEL_TOKEN }}
           teamId: ${{ secrets.VERCEL_TEAM_ID }} # optional, without will use personal
           projectName: ex-nextjs-auto-deploy # project name in Vercel
-        env:
-          
           
       # deploy app to vercel
       - name: deploy site to vercel      
