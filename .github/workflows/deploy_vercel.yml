@@ -1,5 +1,10 @@
 name: deploy nextjs to vercel
 
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["master"]
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
